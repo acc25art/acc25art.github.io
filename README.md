@@ -2,7 +2,7 @@
 
 This is the repository that contains source code for the [website](https://acc25art.github.io).
 
-If you find Transformer-based MPC useful for your work please cite:
+If you find this work useful for your research please cite:
 ```
 @article{ID,
   author    = {},
