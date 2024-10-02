@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Generalizable Spacecraft Trajectory Generation via Multimodal Learning with Transformers
 
 This is the repository that contains source code for the [website](https://acc25art.github.io).
@@ -18,3 +19,6 @@ If you find Transformer-based MPC useful for your work please cite:
 
 # Website License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+=======
+# acc25art.github.io
+>>>>>>> dccadd6668d556e8f09f6a6eb14806d6bd58ec6b
