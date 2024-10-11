@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Transformer-based Trajectory Optimization enables efficient high-performance Model Predictive Control.">
-  <meta name="keywords" content="Transformers, Trajectory Planning, Generalizable Trajectory Generation">
+  <meta name="keywords" content="TransformerMPC, Transformer, Optimal Control, Trajectory Optimization, Learning based, Trajectory Planning, Multimodal Learning, Generalization, Obstacle Avoidance, Artificial Intelligence, AI, Robotics, Free Flyer, Space robotics">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Generalizable Spacecraft Trajectory Generation via Multimodal Learning with Transformers</title>
 
@@ -281,42 +281,40 @@
   </div>
 </section>-->
 
-<!--<section class="section">
-  <div class="container is-max-desktop">-->
+<section class="section">
+  <div class="container is-max-desktop">
     <!--/ Results. -->
-    <!--<div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Numerical results</h2>
         
         <div class="content has-text-justified">
           <p>
-            The Transformers for Trajectory Optimization framework is evaluated in three different test scenarios, inlcuding nonlinear dynamics and obstacle avoidance constraints:
+            The generalization capabilities of the Autonomous Rendezvous Transformer (ART) are evaluated in simulations and on a Free-Flyer testbed:
           </p>
           <ol type="a">
-            <li><em>Autonomous Rendezvous and Proximity Operations,</em></li>
-            <li><em>Quadrotor Control,</em></li>
-            <li><em>Free Flyer Control.</em></li>
+            <li><em>By varying the final time constraint of the optimization problem,</em></li>
+            <li><em>By varying the operative scenario and the obstacles' configration.</em></li>
           </ol>
         </div>
 
         <div class="content has-text-centered">
-          <img src="./static/images/scenarios_rqf_FT_w_states.png"
+          <img src="./static/images/freeflyer_and_testbed2.jpeg"
           height="400px" width="1200px"/>
         </div>
     
         <div class="content has-text-justified">
           <p>
-            Although targeting explicitly closed-loop performance, the fine-tuning process benefits the open-loop setting, too. Warm-starting sequential optimizers with the fine-tuned
-            transformer-based neural network (FT-TTO) increases the fuel-optimality of the planned trajectory.
+            Ablation studies are conducted to assess the impact of diversity in the training dataset on the learning process of ART.
           </p>
         </div>
     
         <div class="content has-text-centered">
-          <img src="./static/images/open_loop_results_qfr_FT_ylim.svg"
-          height="500px" width="500px"/>
+          <img src="./static/images/ablation_studies_table.png"
+          height="300px" width="900px"/>
         </div>
 
-        <div class="content has-text-justified">
+        <!--<div class="content has-text-justified">
           <p>
             In the closed-loop setting, the fine-tuning process enables FT-TTO to effectively boost MPC performance, providing a long-horizon guidance to short-horizon planning problems.
             FT-TTO-MPC outperforms all the baselines considered, thanks to its robustness to covariance shifts induced by the closed-loop execution.
@@ -330,11 +328,11 @@
         <div class="content has-text-centered">
           <img src="./static/images/closed_loop_time_cross_applications_fdr.svg"
           height="500px" width="500px"/>
-        </div>
+        </div>-->
       </div>
     </div>    
   </div>
-</section>--><
+</section>
 
 <!--<section class="hero is-light is-small">
   <div class="hero-body">
