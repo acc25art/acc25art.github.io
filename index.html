@@ -320,7 +320,7 @@
       <div class="column">
         <div class="content has-text-justified">
           <p>
-            Results relative to ART generalization capabilities using with target time acquisition constraints.
+            Results relative to ART generalization capabilities with novel target time acquisition constraints.
           </p>
         </div>
         <div class="content">
@@ -345,37 +345,48 @@
       <div class="content has-text-justified">
         <p>
           While dataset diversity generally improves generalization performance, excessive diversity may have negative effects depending on the specific application.
-          For the generalization across final time constraints, for example, excessive diversity in the training dataset reduces the forecasting accuracy of ART, resulting
-          in an imprecise warm-start and a higher number of SCP iterations to converge to the final solution.
+          Specifically, for the final time generalization, it results in an imprecise warm-start and a higher number of SCP iterations to converge to the final solution.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<!--<section class="hero is-light is-small">
+<section class="hero is-light is-small">
   <div class="hero-body">
-    <div class="container">-->
+    <div class="container">
     <!--/ Results. -->
-      <!--<div class="columns is-centered has-text-centered">
+      <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Experimental results</h2>
         
           <div class="content has-text-justified">
             <p>
-             Experimental tests on a real-world robotic platform, a Free Flyer testbed, confirm the numerical results. Even when planning with the shortest time-horizon considered,
-             FT-TTO-MPC is able to plan an overall trajectory which is closely aligned to the open-loop solution, limiting the cost increment due to the short-horizon planning approximately to 20%.
+             Experimental tests on a real-world Free Flyer testbed, confirm ART's generalization capabilities.
+             ART effectively generates high-quality warm-starting trajectories of different length while leveraging advantageous features of the scenario,
+             even when working with a limited context (right) or with novel obstacles' configuration (left).
             </p>
           </div>
           <div class="content has-text-centered">
-            <img src="./static/images/exp_tests_qualitative_results.png"
-            height="500px" width="500px"/>
+            <img src="./static/images/hardware_trajectories.svg"
+            height="250px" width="600px"/>
           </div>
+
+          <div class="content has-text-justified">
+            <p>
+             The velocity profile of the maneuver is correctly modulated to adapt to the target acuisition time.
+            </p>
+          </div>
+          <div class="content has-text-centered">
+            <img src="./static/images/FT_velocity_profile_no_back.svg"
+            height="450px" width="450px"/>
+          </div>
+
         </div>
       </div>
     </div>
   </div>
-</section>-->
+</section>
 <!--<section class="section">
   <div class="container is-max-desktop">
 
