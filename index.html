@@ -199,33 +199,26 @@
 </section>-->
 
 
-<!--<section class="hero teaser">
+<section class="hero teaser">
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
-        <div class="column">
-          <div class="content">
-            <video poster="" id="open-loop" autoplay controls muted loop playsinline height="100%">
+        <div class="column is-four-fifths">
+          <div class="content is-centered">
+            <video poster="" id="hardware_experiments" autoplay controls muted loop playsinline height="100%">
               <source src="./static/videos/Open-Loop3x_SD.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-        <div class="column">
-          <div class="content">
-            <video poster="" id="closed-loop" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/Closed-Loop3x_SD.mp4"
                       type="video/mp4">
             </video>
           </div>
         </div>
       </div>
       <h2 class="subtitle has-text-centered">
-        Transformer-based networks enable effective open-loop trajectory planning (left) and closed-loop Model Predictive Control (right).
+        Multimodal learning allows Transformer-based networks to generalize across different optimization problem specifications and
+        effectively warm-start Sequential Convex Programming solvers.
       </h2>
     </div>
   </div>
-</section>-->
+</section>
 
 
 <section class="hero is-light">
@@ -323,9 +316,9 @@
             Results relative to ART generalization capabilities with novel target time acquisition constraints.
           </p>
         </div>
-        <div class="content">
+        <div class="content is-centered">
           <img src="./static/images/final_time_diversity.svg"
-          height="600px" width="400px"/>
+          height="700px" width="400px"/>
         </div>
       </div>
       <div class="column">
@@ -334,9 +327,9 @@
             Results relative to ART generalization capabilities with novel obstacles' configurations and avoidance constraints.
           </p>
         </div>
-        <div class="content">
+        <div class="content is-centered">
           <img src="./static/images/obstacles_diversity.svg"
-          height="600px" width="400px"/>
+          height="700px" width="400px"/>
         </div>
       </div>
     </div>
@@ -362,14 +355,14 @@
         
           <div class="content has-text-justified">
             <p>
-             Experimental tests on a real-world Free Flyer testbed, confirm ART's generalization capabilities.
+             Experimental tests on a real-world Free Flyer testbed, confirm the benfit of multimodal learning for generalization capabilities.
              ART effectively generates high-quality warm-starting trajectories of different length while leveraging advantageous features of the scenario,
              even when working with a limited context (right) or with novel obstacles' configuration (left).
             </p>
           </div>
           <div class="content has-text-centered">
             <img src="./static/images/hardware_trajectories.svg"
-            height="250px" width="600px"/>
+            height="250px" width="700px"/>
           </div>
 
           <div class="content has-text-justified">
@@ -379,7 +372,7 @@
           </div>
           <div class="content has-text-centered">
             <img src="./static/images/FT_velocity_profile_no_back.svg"
-            height="450px" width="450px"/>
+            height="500px" width="500px"/>
           </div>
 
         </div>
