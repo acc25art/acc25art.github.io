@@ -311,19 +311,29 @@
     
         <div class="content has-text-centered">
           <img src="./static/images/ablation_studies_table.png"
-          height="200px" width="600px"/>
+          height="150px" width="450px"/>
         </div>
       </div>
     </div>
 
     <div class="columns is-centered">
       <div class="column">
+        <div class="content has-text-justified">
+          <p>
+            Results relative to ART generalization capabilities using with target time acquisition constraints.
+          </p>
+        </div>
         <div class="content">
           <img src="./static/images/final_time_diversity.svg"
           height="600px" width="400px"/>
         </div>
       </div>
       <div class="column">
+        <div class="content has-text-justified">
+          <p>
+            Results relative to ART generalization capabilities with novel obstacles' configurations and avoidance constraints.
+          </p>
+        </div>
         <div class="content">
           <img src="./static/images/obstacles_diversity.svg"
           height="600px" width="400px"/>
@@ -331,24 +341,15 @@
       </div>
     </div>
 
-    <!--<div class="column is-full-width">
-        <div class="content has-text-justified">
-          <p>
-            In the closed-loop setting, the fine-tuning process enables FT-TTO to effectively boost MPC performance, providing a long-horizon guidance to short-horizon planning problems.
-            FT-TTO-MPC outperforms all the baselines considered, thanks to its robustness to covariance shifts induced by the closed-loop execution.
-          </p>
-        </div>
-    
-        <div class="content has-text-centered">
-          <img src="./static/images/closed_loop_cost_cross_applications_fdr.svg"
-          height="500px" width="500px"/>
-        </div>
-        <div class="content has-text-centered">
-          <img src="./static/images/closed_loop_time_cross_applications_fdr.svg"
-          height="500px" width="500px"/>
-        </div>
+    <div class="column is-full-width">
+      <div class="content has-text-justified">
+        <p>
+          While dataset diversity generally improves generalization performance, excessive diversity may have negative effects depending on the specific application.
+          For the generalization across final time constraints, for example, excessive diversity in the training dataset reduces the forecasting accuracy of ART, resulting
+          in an imprecise warm-start and a higher number of SCP iterations to converge to the final solution.
+        </p>
       </div>
-    </div>-->
+    </div>
   </div>
 </section>
 
